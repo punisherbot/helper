@@ -204,15 +204,16 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "onservice",
+    "plugins",
+    "robot",
     "inrealm",
     "ingroup",
     "inpm",
     "banhammer",
     "stats",
-    "anti_spam",
+    "addbylink",
     "owners",
-    "arabic_lock",
+    "adder",
     "set",
     "get",
     "broadcast",
